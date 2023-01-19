@@ -15,10 +15,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* position: absolute;
-  width: 1200px;
-  height: 84px; */
+  position: fixed;
+  background-color: #09090A;
   padding: 48px;
+  width: 100%;
 }
 
 button {
@@ -38,9 +38,15 @@ button {
   cursor: pointer;
 }
 
+button:hover{
+  background-color: #a88fe2;
+  transition: 0.8s;
+}
+
 #form-habits {
   display: flex;
-  padding:  0 48px;
+  padding:  182px 48px 48px;
+  width: fit-content;
 }
 
 .habits {
@@ -97,13 +103,8 @@ input:checked {
   border: 2px solid #A78BFA;
 }
 
-/* div {
-  display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 48px;
-
-width: 1520px;
-height: 64px;
-} */
+@media(max-width:570px){
+  button div {
+    display: none;
+  }
+}
