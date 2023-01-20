@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #09090A;
+  background-color: #09090a;
   color: #fff;
 
   height: 100vh;
@@ -16,7 +16,7 @@ header {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  background-color: #09090A;
+  background-color: #09090a;
   padding: 48px;
   width: 100%;
 }
@@ -30,7 +30,7 @@ button {
 
   display: flex;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
@@ -38,14 +38,14 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-color: #a88fe2;
   transition: 0.8s;
 }
 
 #form-habits {
   display: flex;
-  padding:  182px 48px 48px;
+  padding: 182px 48px 48px;
   width: fit-content;
 }
 
@@ -78,13 +78,13 @@ button:hover{
 }
 
 .day div {
-      font-family: 'Roboto Mono';
-    font-size: 20px;
-    line-height: 125%;
-   
-    text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  line-height: 125%;
 
-    color: #A1A1AA;
+  text-align: center;
+
+  color: #a1a1aa;
 }
 
 input {
@@ -93,17 +93,17 @@ input {
   width: 64px;
   height: 64px;
 
-  background: #18181B;
-  border: 2px solid #27272A;
+  background: #18181b;
+  border: 2px solid #27272a;
   border-radius: 8px;
 }
 
 input:checked {
-  background: #8B5CF6;
-  border: 2px solid #A78BFA;
+  background: #8b5cf6;
+  border: 2px solid #a78bfa;
 }
 
-@media(max-width:570px){
+@media (max-width: 570px) {
   button div {
     display: none;
   }
