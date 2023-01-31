@@ -18,7 +18,7 @@ App desenvolvido na nlw, que é um evento exclusivo e gratuito, promovido pela R
 <br>
 
 <p align="center">
-  <img alt="projeto Habits" src="./assets/img/habits.png" width="100%">
+  <img alt="projeto Habits" src="./public/assets/img/habits.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
